@@ -1,0 +1,16 @@
+a {
+  color: white !important;
+  cursor: pointer;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+
+.settingPaper:hover {
+  background: linear-gradient(279.93deg, rgba(54, 51, 51, 0.5) 0%, #000000 70%);
+}
+
+.css-tepbqo-MuiPaper-root-MuiDialog-paper {
+  max-width: 476px !important;
+  width: 100%;
+}

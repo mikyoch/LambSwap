@@ -1,0 +1,48 @@
+
+.MuiSelect-icon{
+    color:#7E8B74 !important;
+}
+
+.css-ume8vi-MuiInputBase-input-MuiInput-input{
+    text-align: right !important;
+}
+
+.netButton:hover{
+    background-color: black !important;
+}
+
+@keyframes pageAnimate1 {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes pageAnimate2 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes paperAnimate1 {
+    from {top:265px;left:939px}
+    to {top:98px;left:495px}
+}
+
+@keyframes paperAnimate2 {
+    from {top:99px;left:498px}
+    to {top:270px;left:910px}
+}
+
+@media only screen and (max-width: 1200px) {
+    .responsive3 {
+        margin-bottom: 20px !important;
+    }
+
+    @keyframes paperAnimate1 {
+        from {top:1500px;left:40px}
+        to {top:98px;left:40px;}
+    }
+    
+    @keyframes paperAnimate2 {
+        from {top:99px;left:40px;}
+        to {top:1500px;left:40px}
+    }
+}

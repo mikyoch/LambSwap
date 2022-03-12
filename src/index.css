@@ -1,0 +1,55 @@
+body {
+  margin: 0px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  background-color: #191919 !important;
+  color: white !important;
+}
+
+.css-tepbqo-MuiPaper-root-MuiDialog-paper {
+  background: #191919 !important;
+}
+
+.css-tepbqo-MuiPaper-root-MuiDialog-paper {
+  border-radius: 12px !important;
+}
+
+/* .css-hlbod1-MuiPaper-root-MuiAccordion-root {
+  position: initial !important;
+} */
+
+.MuiOutlinedInput-root {
+  border-radius: 12px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #546e7a; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #37474f; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
